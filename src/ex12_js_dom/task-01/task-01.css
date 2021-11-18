@@ -1,0 +1,60 @@
+body {
+    background-color: burlywood;
+}
+
+.slider__image {
+    width: 550px;
+    height: 350px;
+}
+
+.slider__block {
+    width: 550px;
+    height: 350px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.slider__line {
+    display: flex;
+    position: relative;
+    left: 0;
+
+    width: 2750px;
+    height: 350px;
+
+    transition: all ease 1s;
+}
+
+.slider__buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.slider__prev, .slider__next {
+    width: 150px;
+    height: 50px;
+
+    background-color: rgb(245, 219, 186);
+    border: none;
+    border-radius: 10px;
+
+    font-size: 24px;
+    font-family: monospace;
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+    cursor: pointer;
+}
+
+.slider__prev {
+    margin-right: 15px;
+}
+
+.slider__next:hover, .slider__prev:hover {
+    background-color: rgb(252, 232, 186);
+}
+
+.slider__next:focus, .slider__prev:focus {
+    outline: 2px solid rgb(92, 72, 72);
+}
+
