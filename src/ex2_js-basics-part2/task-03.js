@@ -1,9 +1,9 @@
-function evenAndOdd(mas) {
+function evenAndOdd(arr) {
   let countEven = 0;
   let countOdd = 0;
   let countZero = 0;
-  const newMassive = [];
-  mas.forEach((element) => {
+  const newArray = [];
+  arr.forEach((element) => {
     if (typeof element === 'number' && element !== 0) {
       if (element % 2 === 0) {
         countEven += 1;
@@ -15,10 +15,10 @@ function evenAndOdd(mas) {
       countZero += 1;
     }
   });
-  newMassive.push(countEven);
-  newMassive.push(countOdd);
-  newMassive.push(countZero);
-  return newMassive;
+  newArray.push(countEven);
+  newArray.push(countOdd);
+  newArray.push(countZero);
+  return newArray;
 }
 
 module.exports = evenAndOdd;

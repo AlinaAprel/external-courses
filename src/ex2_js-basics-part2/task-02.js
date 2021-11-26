@@ -1,7 +1,7 @@
-function find(mas) {
+function find(arr) {
   let count = 0;
-  const massive = JSON.stringify(mas);
-  JSON.parse(massive).forEach((elem) => {
+  const array = JSON.stringify(arr);
+  JSON.parse(array).forEach((elem) => {
     count += 1;
     console.log(elem);
   });
