@@ -6,8 +6,10 @@ function doYouHaveAProperty(str, obj) {
         return true;
       }
     }
+
     return false;
   }
+
   return false;
 }
 

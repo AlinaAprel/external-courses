@@ -10,6 +10,7 @@ function createNewObject(str, obj) {
     // eslint-disable-next-line no-param-reassign
     obj[str] = 'new';
   }
+
   return obj;
 }
 
