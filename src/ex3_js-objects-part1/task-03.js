@@ -1,16 +1,9 @@
 function doYouHaveAProperty(str, obj) {
+  let result = false;
   if (Object.keys(obj).length !== 0) {
-    // eslint-disable-next-line no-restricted-syntax
-    for (const key in obj) {
-      if (key === str) {
-        return true;
-      }
-    }
-
-    return false;
+    result = obj.hasOwnProperty(str);
   }
-
-  return false;
+  return result;
 }
 
 module.exports = doYouHaveAProperty;
