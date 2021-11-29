@@ -36,7 +36,6 @@ body {
     height: 200px;
     margin-top: 60px;
     margin-left: 60px;
-
     clip-path: ellipse(140px 130px at 20% 5%);
 }
 

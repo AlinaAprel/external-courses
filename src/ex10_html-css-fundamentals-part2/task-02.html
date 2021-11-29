@@ -92,12 +92,12 @@
             Password
             <input type="text" name="password" required>
         </label>
+        <container class="buttons">
+            <form action="http://httpbin.org/post" method="post">
+                <button name="sent-button" value="sent">Отправить</button>
+            </form>
+            <button type="reset">Сбросить</button>
+        </container>
     </form>
-    <container class="buttons">
-        <form action="http://httpbin.org/post" method="post">
-            <button name="sent-button" value="sent">Отправить</button>
-        </form>
-        <button type="reset">Сбросить</button>
-    </container>
 </body>
 </html>
