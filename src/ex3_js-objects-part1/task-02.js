@@ -4,7 +4,7 @@ function seeKeys(obj) {
 
   console.log(keys, values);
 
-  return `Ключи: ${keys}, значения свойств: ${values}`;
+  return `Ключи: ${keys}, значения: ${values}`;
 }
 
 module.exports = seeKeys;

@@ -1,6 +1,6 @@
 const object = {};
 
-object.name = 'Alina';
+object.name = 'alina';
 object.age = 18;
 object['likes programming'] = true;
 

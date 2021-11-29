@@ -1,6 +1,6 @@
-function cloneThisObject(obj) {
+function cloneObject(obj) {
   // eslint-disable-next-line prefer-object-spread
   return Object.assign({}, obj);
 }
 
-module.exports = cloneThisObject;
+module.exports = cloneObject;
