@@ -68,8 +68,5 @@ class Hangman {
 }
 
 const hangman = new Hangman('webpurple');
-console.log(hangman.guess('w'));
-console.log(hangman.guess('e'));
-console.log(hangman.guess('p'));
-console.log(hangman.getGuessedString());
+
 module.exports = hangman;
