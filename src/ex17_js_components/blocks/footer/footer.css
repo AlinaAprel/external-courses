@@ -1,0 +1,37 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100vw;
+    height: 55px;
+
+    background-color: #0067A3;
+}
+
+.footer__tasks {
+    display: flex;
+    align-items: center;
+
+    margin-left: 67px;
+}
+
+.footer__active-tasks, .footer__finished-tasks, .footer__author {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color:#FFFFFF;
+}
+
+.footer__active-tasks {
+    margin-right: 36px;
+}
+
+.footer__author {
+    margin-right: 27px;
+}
+
+.footer__author span {
+    text-transform: uppercase;
+}
