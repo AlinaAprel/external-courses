@@ -16,7 +16,7 @@ class TaskList {
 
     const image = document.createElement('img');
     image.classList.add('tasks-list__image');
-    image.src = './src/images/options.svg';
+    image.src = './images/options.svg';
     board.appendChild(image);
 
     const div = document.createElement('div');
