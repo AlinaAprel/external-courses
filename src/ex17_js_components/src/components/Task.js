@@ -1,9 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 class Task {
-  constructor(buttons, data, taskList) {
+  constructor(buttons, data) {
     this.buttons = buttons;
     this.data = data;
-    this.taskList = taskList;
   }
 
   writeNewTask(parent) {
@@ -33,12 +32,12 @@ class Task {
         }
       }
     });
-    this.taskList.updateData(data);
+    this.data.updateData(data);
     this.removeElem(dropdown);
   }
 
   getAnotherTasks(button, nameBlock) {
-    const data = this.taskList.getData();
+    const data = this.data.getData();
     data.forEach((block) => {
       if (block.title === nameBlock.textContent) {
         const indexOfLastBlock = Math.abs(data.indexOf(block) - 1);

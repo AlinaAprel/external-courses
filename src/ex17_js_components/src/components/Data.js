@@ -3,7 +3,9 @@
 // eslint-disable-next-line no-unused-vars
 class Data {
   // eslint-disable-next-line no-empty-function
-  constructor() {}
+  constructor(boardsMocks) {
+    this.boardsMocks = boardsMocks;
+  }
 
   save(elem) {
     let textInput = '';
@@ -29,5 +31,22 @@ class Data {
 
     localStorage.setItem('tasks', JSON.stringify(arrayLocalStorage));
     window.location.reload();
+  }
+
+  setData() {
+    if (localStorage.getItem('tasks') === null) {
+      localStorage.setItem('tasks', JSON.stringify(this.boardsMocks));
+    }
+  }
+
+  // eslint-disable-next-line class-methods-use-this
+  updateData(array) {
+    localStorage.setItem('tasks', JSON.stringify(array));
+    window.location.reload();
+  }
+
+  // eslint-disable-next-line class-methods-use-this
+  getData() {
+    return JSON.parse(localStorage.getItem('tasks'));
   }
 }

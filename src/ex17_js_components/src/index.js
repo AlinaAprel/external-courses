@@ -6,14 +6,14 @@
   const btnArrow = document.querySelector('.header__arrow');
   const menu = document.querySelector('.menu');
 
+  const data = new Data(boardsMocks);
   const taskList = new TaskList(tasksList, boardsMocks);
-  taskList.setData();
+  data.setData();
   taskList.render();
 
   const userMenu = new UserMenu(menu, btnArrow);
-  const data = new Data();
   const buttons = document.querySelectorAll('.tasks-list__button');
-  const task = new Task(buttons, data, taskList);
+  const task = new Task(buttons, data);
   task.setEventListeners();
 
   account.addEventListener('click', () => {

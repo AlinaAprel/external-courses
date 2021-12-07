@@ -5,23 +5,6 @@ class TaskList {
     this.boardsMocks = boardsMocks;
   }
 
-  setData() {
-    if (localStorage.getItem('tasks') === null) {
-      localStorage.setItem('tasks', JSON.stringify(this.boardsMocks));
-    }
-  }
-
-  // eslint-disable-next-line class-methods-use-this
-  updateData(array) {
-    localStorage.setItem('tasks', JSON.stringify(array));
-    window.location.reload();
-  }
-
-  // eslint-disable-next-line class-methods-use-this
-  getData() {
-    return JSON.parse(localStorage.getItem('tasks'));
-  }
-
   create(list) {
     const board = document.createElement('div');
     board.classList.add('tasks-list__board');
@@ -33,7 +16,7 @@ class TaskList {
 
     const image = document.createElement('img');
     image.classList.add('tasks-list__image');
-    image.src = './images/options.svg';
+    image.src = './src/images/options.svg';
     board.appendChild(image);
 
     const div = document.createElement('div');
