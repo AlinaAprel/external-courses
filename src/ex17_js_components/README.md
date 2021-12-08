@@ -1,6 +1,6 @@
 # Awesome kanban board
 
-## it is management software that helps you keep track of BACKLOG tasks, READY tasks, IN PROGRESS tasks, and FINISHED tasks.
+## it is management software that helps you keep track of BACKLOG tasks, READY tasks, IN PROGRESS tasks and FINISHED tasks.
 
 ### Technology that used in project:
 #### - parcel
