@@ -1,7 +1,7 @@
 /* eslint-disable class-methods-use-this */
 /* eslint-disable no-useless-constructor */
 // eslint-disable-next-line no-unused-vars
-class Data {
+export class Data {
   // eslint-disable-next-line no-empty-function
   constructor(boardsMocks) {
     this.boardsMocks = boardsMocks;

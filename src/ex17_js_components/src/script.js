@@ -1,3 +1,9 @@
+import { Data } from './components/Data';
+import { Task } from './components/Task';
+import { TaskList } from './components/TaskList';
+import { UserMenu } from './components/UserMenu';
+import { boardsMocks } from './components/boardsMocks';
+
 /* eslint-disable no-undef */
 // eslint-disable-next-line func-names
 (function () {

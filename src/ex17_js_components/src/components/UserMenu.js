@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-class UserMenu {
+export class UserMenu {
   constructor(menu, btnArrow) {
     this.menu = menu;
     this.btnArrow = btnArrow;

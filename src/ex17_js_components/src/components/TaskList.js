@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-class TaskList {
+export class TaskList {
   constructor(tasksList, boardsMocks) {
     this.tasksList = tasksList;
     this.boardsMocks = boardsMocks;

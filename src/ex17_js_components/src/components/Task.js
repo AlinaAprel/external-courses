@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-class Task {
+export class Task {
   constructor(buttons, data) {
     this.buttons = buttons;
     this.data = data;

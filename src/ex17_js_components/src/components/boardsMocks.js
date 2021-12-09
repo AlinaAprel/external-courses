@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-const boardsMocks = [
+export const boardsMocks = [
   {
     title: 'Backlog',
     issues: [
