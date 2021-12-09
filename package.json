@@ -1,12 +1,15 @@
 {
   "name": "webpurple-external-courses",
+  "source": "src/ex17_js_components/src/index.html",
   "version": "1.0.0",
   "description": "WebPurple JavaScript course template",
   "scripts": {
     "test": "jest",
     "lint": "eslint --ext .js --cache ./src --fix",
     "test:ci": "jest",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "start": "parcel",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
@@ -32,7 +35,7 @@
     "husky": "7.0.0",
     "jest": "24.9.0",
     "lint-staged": "11.1.2",
-    "parcel": "^2.0.1"
+    "parcel": "latest"
   },
   "eslintIgnore": [
     "**/test/**/*",
@@ -46,5 +49,9 @@
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "node": "^16.13.1"
   }
 }

@@ -16,7 +16,8 @@ export class TaskList {
 
     const image = document.createElement('img');
     image.classList.add('tasks-list__image');
-    image.src = './images/options.svg';
+    // eslint-disable-next-line global-require
+    image.src = require('../images/options.svg');
     board.appendChild(image);
 
     const div = document.createElement('div');
