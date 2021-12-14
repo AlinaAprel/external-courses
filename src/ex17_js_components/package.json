@@ -1,0 +1,19 @@
+{
+  "name": "ex17_js_components",
+  "version": "1.0.0",
+  "description": "kanban board components",
+  "main": "src/scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kanban",
+    "epam",
+    "board"
+  ],
+  "author": "Alina Aprel <alina.aprelh@mail.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  }
+}
