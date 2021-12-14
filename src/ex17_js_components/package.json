@@ -2,7 +2,7 @@
   "name": "ex17_js_components",
   "version": "1.0.0",
   "description": "kanban board components",
-  "source": "src/indx.html",
+  "source": "src/index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
