@@ -2,9 +2,10 @@
   "name": "ex17_js_components",
   "version": "1.0.0",
   "description": "kanban board components",
-  "main": "src/scripts.js",
+  "source": "src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel",
+    "build": "parcel build"
   },
   "keywords": [
     "kanban",
@@ -15,5 +16,8 @@
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.0.1"
+  },
+  "dependencies": {
+    "core-js": "^3.19.3"
   }
 }
