@@ -8,6 +8,7 @@ export class Task {
   writeNewTask(parent) {
     const input = document.createElement('input');
     input.classList.add('tasks-list__task-input');
+    input.id = 'task-input';
     const tasksContainer = parent.querySelector('.tasks-list__all-tasks');
 
     tasksContainer.appendChild(input);

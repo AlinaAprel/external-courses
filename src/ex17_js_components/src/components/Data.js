@@ -10,7 +10,7 @@ export class Data {
   save(elem) {
     let textInput = '';
     let titleBlock = '';
-    if (elem.tagName === 'INPUT') {
+    if (elem.id === 'task-input') {
       textInput = elem.value;
       titleBlock = elem.parentElement.parentElement.querySelector('.tasks-list__title').textContent;
     } else {
