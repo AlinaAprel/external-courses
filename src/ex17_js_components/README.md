@@ -1,21 +1,16 @@
-# Практическая работа 17 - Компонентный подход
+# Awesome kanban board
 
-## Задание 1
+## it is management software that helps you keep track of BACKLOG tasks, READY tasks, IN PROGRESS tasks and FINISHED tasks.
 
-На протяжении нескольких занятий вы работали над проектом Kanban. Необходимо переписать его, следуя правилам компонентного подхода. 
-В папке этого задания должен быть файл index.html, собирающий проект, и папка src с исходниками.<br>
-А так же обязательное требование - написать очень подробный файл README.md и положить его в корень проекта. Должно быть описано, как открыть ваш проект.
+### Technology that used in project:
+#### - parcel
+#### - git
+#### - flex
+#### - БЭМ (block__element_modificator)
 
-### Требования
+### If you want to use this project you need to configure npm and git
+### You can install all dependencies with command "npm install"
+### For building project use command "npm run build"
+### To start the server - "npm run start"
+#### Parcel accepts any type of file as an entry point, but an HTML file is a good place to start. Parcel will follow all of your dependencies from there to build your app.
 
-- Файловая структура (см. описание выше)
-- Использование компонентов (модулей)
-- Использование синтаксиса import/export
-- Не использовать устаревшие операторы (var, и тд)
-
-PS. в index.html может лежать весь html, но так же можно разбить его на модули и вставлять в DOM через специальные методы. Инициатива при выборе дополнительных инструментов привествуется
-
-#### Критерии оценки: 
-- 0 - задание не выполнено
-- 1-4 - задания выполнены, но есть недоработки
-- 5 - задание выполнено и соответствует требованиям, исправлены комментарии тренера, если имеются
