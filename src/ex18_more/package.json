@@ -1,0 +1,23 @@
+{
+  "name": "ex17_js_components",
+  "version": "1.0.0",
+  "description": "kanban board components",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "keywords": [
+    "kanban",
+    "epam",
+    "board"
+  ],
+  "author": "Alina Aprel <alina.aprelh@mail.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  },
+  "dependencies": {
+    "core-js": "^3.19.3"
+  }
+}
