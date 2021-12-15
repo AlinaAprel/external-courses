@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Noto_Sans_JP';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("./Noto_Sans_JP/NotoSansJP-Regular.otf") format("otf");
+}
+
+@font-face {
+    font-family: 'Noto_Sans_JP';
+    font-style:  bold;
+    font-weight: 900;
+    src: url("./Noto_Sans_JP/NotoSansJP-Bold.otf") format("otf");
+}
+
+
+@font-face {
+  font-family: 'Readex_Pro';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("./Readex_Pro/ReadexPro-Regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'Readex_Pro';
+    font-style:  bold;
+    font-weight: 900;
+    src: url("./Readex_Pro/ReadexPro-Bold.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'Redacted_Script';
+    font-style:  normal;
+    font-weight: 400;
+    src: url("./Redacted_Script/RedactedScript-Regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'Redacted_Script';
+    font-style:  bold;
+    font-weight: 900;
+    src: url("./Redacted_Script/RedactedScript-Regular.ttf") format("ttf");
+}
