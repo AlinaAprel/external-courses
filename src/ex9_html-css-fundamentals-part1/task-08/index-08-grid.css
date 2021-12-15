@@ -1,0 +1,34 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  grid-template-areas:
+  "header header header"
+  "main main aside" 
+}
+
+header {
+  grid-area: header;
+  background: lightblue;
+
+}
+
+section {
+  grid-area: main;
+  background: lightgreen;
+
+}
+
+article {
+  background: white;
+  margin: 0 0 1rem 0;
+}
+
+aside {
+  grid-area: aside;
+  background: pink;
+}
+
+header, article, section, .module {
+  padding: 1rem;
+}
