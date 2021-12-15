@@ -1,0 +1,46 @@
+.page {
+    display: flex;
+    background-color: rgb(142, 174, 165);
+}
+
+.text {
+    width: 600px;
+}
+
+.photo-1, .photo-1 img{
+    width: 20vw;
+    height: 60vh;
+}
+
+.photo-2, .photo-2 img{
+    width: 300px;
+    height: 600px;
+}
+
+.photo-2, .photo-3 img {
+    width: 100%;
+    height: 100%;
+}
+
+#one {
+    font-size: 1em;
+    font-family: 'Noto_Sans_JP';
+    font-style: normal;
+    font-weight: 400;
+}
+
+#two {
+    font-size: 14px;
+    font-family: 'Readex_Pro';
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(127, 127, 207, 0.721);
+}
+
+#three {
+    font-size: 1rem;
+    font-family: 'Redacted_Script';
+    font-weight: 400;
+    font-style: normal;
+    color: red;
+}
