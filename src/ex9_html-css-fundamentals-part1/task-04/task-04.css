@@ -1,0 +1,61 @@
+#one {
+    background-color: #ff5959;
+    width: 500px;
+    height: 300px;
+    box-shadow: 10px 10px 0 #fc7979, 15px 15px 0 #f89292;
+    margin-bottom: 50px;
+}
+
+#two {
+    position: relative;
+    background-color: #ffc039;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+#two::after, #two::before {
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    z-index: -1;
+}
+
+#two::after {
+	background: #ffc670;
+	top: 5px; left: 5px;
+}
+
+#two::before {
+	background: #fff09b;
+	top: 10px; left: 10px;
+} 
+
+#three {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(52, 241, 255);
+}
+
+#three-1, #three-2 {
+    width: 500px;
+    height: 300px;
+}
+
+#three-1 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-color: rgb(111, 244, 254);
+    z-index: -1;
+}
+
+#three-2 {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background-color: rgb(181, 245, 250);
+    z-index: -2;
+}
